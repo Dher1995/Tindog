@@ -1,0 +1,156 @@
+body {
+    font-family: 'Montserrat';
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Bangers', cursive;
+}
+
+p{
+    color: #8f8f8f;
+}
+.bigheading {
+    font-family: 'Bangers', cursive;
+    font-size: 4rem;
+   font-weight: bold;
+     line-height: 1.5;
+}
+.container-fluid {
+    padding: 7% 15% ;
+}
+.coloured {
+    color: #fff;
+    background-color:#ff4c68 ;
+}
+.white{
+background-color: #fff;
+}
+/* TITLE SECTION */
+
+#title .container-fluid{
+    padding: 4% 15% 5%;
+    text-align: left;
+}
+
+
+.navbar-brand {
+    font-family: 'ubuntu';
+    font-weight: bold;
+    font-size: 2rem;
+}
+.navbar {
+    padding:0 0 4.5rem;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-size: 1.1 rem;
+     
+}
+.downbutton {
+    margin: 5% 3% 3% 0;
+}
+.dogimage {
+    width: 60%;
+    
+    transform: rotate(25deg);
+    position: absolute;
+    
+    right: 35%;
+}
+
+/* FEATURE SECTION */
+#features {
+   
+    
+    position: relative;
+    z-index: 1;
+     
+}
+.feature-text{
+    
+    font-size: 1.5rem;
+}
+.featurebox {
+    
+    padding: 5%;
+}
+.sym {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.sym:hover {
+    color: #ff4c68;
+}
+
+/* TESTIMONIAL SECTION */
+#testimonials {
+    
+    
+    background-color: #ef8172;
+    
+    
+}
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonial-image {
+    border-radius: 100%;
+    width: 20%;
+    margin: 20px;
+}
+
+/* PRESS SECTION */
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.pressimg {
+    width: 15%;
+    margin: 20px 20px 50px;
+
+
+}
+
+
+/* PRICING SECTION */
+#pricing {
+    padding:100px;
+   background-color: #ef8172;
+    
+}
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.pris {
+    padding: 2% 3% ;
+}
+
+/* CTA SECTION */
+
+
+
+/* FOOTER SECTION */
+
+.foot {
+    margin: 10px 20px;
+}
+
+/* MEDIA QUERY */
+@media (max-width:1130px) {
+    #title {
+        text-align: center;
+    }
+    .dogimage {
+        transform: rotate(0);
+        position: static;
+        margin-left: 70px;
+        width: 80%;
+    }
+}
+
+
